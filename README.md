@@ -1,5 +1,5 @@
 # theHam-project
-## I created this [STEP PROJECT](https://anastasiia1197.github.io/theHam-project/) project in DAN.IT
+## I created this [STEP PROJECT](https://anastasiia1197.github.io/theHam-project/)  in DAN.IT
 
 - It uses the jQuery library.
 - The JavaScript code is included.
