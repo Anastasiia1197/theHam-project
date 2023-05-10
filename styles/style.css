@@ -17,6 +17,7 @@ body{
     background-size: 100%; 
     background-attachment: fixed;
     height: 1010px;
+    margin-top: 0;
 }
 
 .container{
@@ -26,6 +27,7 @@ body{
     justify-content: space-around;
     height: 120px;
     width: 100%;
+    margin-top: 0;
 }
 
 
@@ -228,6 +230,7 @@ body{
     align-items: center;
     padding: 0;
     margin-top: 65px;
+    cursor: pointer;
 }
 
 .service-item{
@@ -364,6 +367,7 @@ body{
     padding: 0;
     margin: auto; 
     margin-bottom: 70px;
+    cursor: pointer;
 }
 
 .work-item{
@@ -377,6 +381,24 @@ body{
     margin-top: 65px;
     align-self: center;
 }
+
+.work-item-active{
+background: #18CFAB;
+color: #FFFFFF;
+}
+
+.work-item-active::before{
+    content: "";
+    position: absolute;
+    top: 1;
+    left: 2;
+    transform:translateY(30px) rotateX(180deg); 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #18CFAB;
+    z-index: 10;
+}
+
 .work-item:hover{
     border: 2px solid #18CFAB;
 }

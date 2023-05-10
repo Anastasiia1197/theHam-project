@@ -46,10 +46,10 @@ for(let i = 0; i < workList.length; i++){
 
 workList[i].addEventListener('click', function() {
         workList.forEach(function(item){
-            item.classList.remove('active');
+            item.classList.remove('work-item-active');
         });
 
-        this.classList.add('active');
+        this.classList.add('work-item-active');
         let dataWork = this.getAttribute('data-work');
 
 
